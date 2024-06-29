@@ -1,11 +1,13 @@
 .connected {
-  background-color: green !important; /* Add !important to override other styles */
-  color: white; /* Change text color to white for better contrast */
-  border-color: green; /* Change border color to match background color */
+  background-color: rgba(0, 250, 0, 0.5);
+  color: white;
+  border-color: green;
 }
-canvas {
-  width: 100%;
+.connected:hover {
+  background-color: #aa2b00;
+  border-color: #cc3300;
 }
+
 .compatibility-message {
   display: none;
   position: fixed;
